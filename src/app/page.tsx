@@ -203,16 +203,22 @@ export default function Home() {
       liveLink: "https://drive.google.com/file/d/1cHNyvpvDLZl5h7CDpI0hEHAQvSRkYb0B/view?usp=sharing",
       images: [
         "./algoease/ae1.png",
+        "./algoease/ae13.png",
         "./algoease/ae2.png",
         "./algoease/ae3.png",
         "./algoease/ae4.png",
+        
         "./algoease/ae5.png",
         "./algoease/ae6.png",
-        "./algoease/ae7.png",
         "./algoease/ae8.png",
         "./algoease/ae9.png",
         "./algoease/ae10.png",
         "./algoease/ae11.png",
+        "./algoease/ae12.png",
+        
+        "./algoease/ae14.png",
+        "./algoease/ae15.png",
+        
         
       ]
     },
