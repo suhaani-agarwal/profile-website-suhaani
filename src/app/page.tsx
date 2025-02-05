@@ -240,14 +240,14 @@ export default function Home() {
       githubLink: "https://github.com/suhaani-agarwal/lorem-ipsum",
       liveLink: "https://smart-task-manager.demo",
       images: [
-        "/sukhisaheli/Screenshot 2025-02-05 at 5.56.19 PM.png",
-        "/sukhisaheli/Screenshot 2025-02-05 at 5.56.36 PM.png",
-        "/sukhisaheli/Screenshot 2025-02-05 at 5.56.47 PM.png",
-        "/sukhisaheli/Screenshot 2025-02-05 at 5.56.58 PM.png",
-        "/sukhisaheli/Screenshot 2025-02-05 at 5.57.54 PM.png",
-        "/sukhisaheli/Screenshot 2025-02-05 at 6.00.28 PM.png",
-        "/sukhisaheli/Screenshot 2025-02-05 at 6.01.00 PM.png",
-        "/sukhisaheli/Screenshot 2025-02-05 at 6.01.09 PM.png"
+        "/sukhisaheli/s1.png",
+        "/sukhisaheli/s2.png",
+        "/sukhisaheli/s3.png",
+        "/sukhisaheli/s4.png",
+        "/sukhisaheli/s5.png",
+        "/sukhisaheli/s6.png",
+        "/sukhisaheli/s7.png",
+        "/sukhisaheli/s8.png"
       ]
     },
     {
@@ -298,7 +298,7 @@ export default function Home() {
           className="photo mb-8 rounded-full overflow-hidden w-48 h-48 md:w-72 md:h-72 border-4 border-indigo-500 shadow-[0_0_30px_rgba(99,102,241,0.3)]"
         >
           <Image
-            src={`/profile3.jpeg`}
+            src={"/profile3.jpeg"} //this image is lying in /profile-website-suhaani/public/profile3.jpeg
             alt="Suhaani Agarwal"
             width={100}
             height={100}
