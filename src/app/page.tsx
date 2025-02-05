@@ -287,7 +287,7 @@ export default function Home() {
         top-0 left-0
         bg-[#0d0d2b] 
         h-screen 
-        w-[75%] md:w-[25%] 
+        w-[80%] md:w-[30%] 
         border-r border-indigo-900/30 
         flex flex-col justify-start items-center 
         gap-10
@@ -296,7 +296,7 @@ export default function Home() {
         ${isMobileMenuOpen ? 'block' : 'hidden md:flex'}
       `}
     >
-      <div className="p-4 md:p-8 w-[30%]">
+      <div className="p-4 md:p-8">
         {/* Profile Photo */}
         <motion.div
           whileHover={{ scale: 1.05 }}
