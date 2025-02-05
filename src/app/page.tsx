@@ -202,17 +202,17 @@ export default function Home() {
       githubLink: "https://github.com/suhaani-agarwal/AlgoEase",
       liveLink: "https://drive.google.com/file/d/1cHNyvpvDLZl5h7CDpI0hEHAQvSRkYb0B/view?usp=sharing",
       images: [
-        "./profile-website-suhaani/algoease/ae1.png",
+        "./algoease/ae1.png",
         "./algoease/ae2.png",
-        "../algoease/ae3.png",
-        "../profile-website-suhaani/algoease/ae4.png",
-        "/profile-website-suhaani/algoease/ae5.png",
-        "public/algoease/ae6.png",
-        "profile-website-suhaani/algoease/ae7.png",
-        "profile-website-suhaani/algoease/ae8.png",
-        "profile-website-suhaani/algoease/ae9.png",
-        "profile-website-suhaani/algoease/ae10.png",
-        "profile-website-suhaani/algoease/ae11.png",
+        "./algoease/ae3.png",
+        "./algoease/ae4.png",
+        "./algoease/ae5.png",
+        "./algoease/ae6.png",
+        "./algoease/ae7.png",
+        "./algoease/ae8.png",
+        "./algoease/ae9.png",
+        "./algoease/ae10.png",
+        "./algoease/ae11.png",
         
       ]
     },
@@ -223,13 +223,13 @@ export default function Home() {
       githubLink: "https://github.com/suhaani-agarwal/aasra-v1",
       liveLink: "https://ai-image-generator.demo",
       images: [
-        "profile-website-suhaani/aasra/a1.png",
-        "profile-website-suhaani/aasra/a2.png",
-        "profile-website-suhaani/aasra/a3.png",
-        "profile-website-suhaani/aasra/a4.png",
-        "profile-website-suhaani/aasra/a5.png",
-        "profile-website-suhaani/aasra/a6.png",
-        "profile-website-suhaani/aasra/a7.png"
+        "./aasra/a1.png",
+        "./aasra/a2.png",
+        "./aasra/a3.png",
+        "./aasra/a4.png",
+        "./aasra/a5.png",
+        "./aasra/a6.png",
+        "./aasra/a7.png"
       ]
     },
     {
@@ -239,14 +239,14 @@ export default function Home() {
       githubLink: "https://github.com/suhaani-agarwal/lorem-ipsum",
       liveLink: "https://smart-task-manager.demo",
       images: [
-        "profile-website-suhaani/sukhisaheli/s1.png",
-        "profile-website-suhaani/sukhisaheli/s2.png",
-        "profile-website-suhaani/sukhisaheli/s3.png",
-        "profile-website-suhaani/sukhisaheli/s4.png",
-        "profile-website-suhaani/sukhisaheli/s5.png",
-        "profile-website-suhaani/sukhisaheli/s6.png",
-        "profile-website-suhaani/sukhisaheli/s7.png",
-        "profile-website-suhaani/sukhisaheli/s8.png"
+        "./sukhisaheli/s1.png",
+        "./sukhisaheli/s2.png",
+        "./sukhisaheli/s3.png",
+        "./sukhisaheli/s4.png",
+        "./sukhisaheli/s5.png",
+        "./sukhisaheli/s6.png",
+        "./sukhisaheli/s7.png",
+        "./sukhisaheli/s8.png"
       ]
     },
     {
@@ -297,7 +297,7 @@ export default function Home() {
           className="photo mb-8 rounded-full overflow-hidden w-48 h-48 md:w-72 md:h-72 border-4 border-indigo-500 shadow-[0_0_30px_rgba(99,102,241,0.3)]"
         >
           <Image
-            src={"profile-website-suhaani/profile3.jpeg"} //this image is lying in /profile-website-suhaani/public/profile3.jpeg
+            src={"./profile3.jpeg"} //this image is lying in /profile-website-suhaani/public/profile3.jpeg
             alt="Suhaani Agarwal"
             width={100}
             height={100}
