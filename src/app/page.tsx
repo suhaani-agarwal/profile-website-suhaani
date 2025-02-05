@@ -240,7 +240,7 @@ export default function Home() {
     },
     {
       title: "Sukhi Saheli",
-      description: "An AI-powered task management system that helps prioritize and organize tasks using natural language processing.",
+      description: "An AI-powered well-being companion designed to empower housewives with mental wellness support, task management, and community engagement",
       techStack: ["Next.js","Javascript","TypeScript","Tailwind CSS","MongoDB"],
       githubLink: "https://github.com/suhaani-agarwal/lorem-ipsum",
       liveLink: "https://smart-task-manager.demo",
@@ -257,7 +257,7 @@ export default function Home() {
     },
     {
       title: "Sweekaar",
-      description: "A comprehensive learning management system with real-time collaboration features and interactive content delivery.",
+      description: "An inclusive learning platform empowering neurodivergent children with personalized education, social interaction, and skill development",
       techStack: ["React", "Firebase", "Node.js", "Express"],
       githubLink: "",
       liveLink: ""
@@ -287,7 +287,7 @@ export default function Home() {
         top-0 left-0
         bg-[#0d0d2b] 
         h-screen 
-        w-[75%] md:w-[25%] 
+        w-[80%] md:w-[30%] 
         border-r border-indigo-900/30 
         flex flex-col justify-start items-center 
         gap-10
@@ -296,7 +296,7 @@ export default function Home() {
         ${isMobileMenuOpen ? 'block' : 'hidden md:flex'}
       `}
     >
-      <div className="p-4 md:p-8">
+      <div className="p-4 md:p-8 w-[30%]">
         {/* Profile Photo */}
         <motion.div
           whileHover={{ scale: 1.05 }}
@@ -316,7 +316,7 @@ export default function Home() {
           {[
             { icon: <FaLinkedin size="30" />, href: "https://www.linkedin.com/in/suhaani-agarwal-010a0a280/", color: "#0077b5" },
             { icon: <FaGithub size="30" />, href: "https://github.com/suhaani-agarwal", color: "#ffffff" },
-            { icon: <FaDownload size="30" />, href: "./SuhaaniAgarwalResume.pdf", color: "#4CAF50" }
+            { icon: <FaDownload size="30" />, href: "./suhaaniResume.pdf", color: "#4CAF50" }
           ].map((social, index) => (
             <motion.a
               key={index}
