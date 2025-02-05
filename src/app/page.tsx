@@ -229,9 +229,9 @@ export default function Home() {
       githubLink: "https://github.com/suhaani-agarwal/aasra-v1",
       liveLink: "https://ai-image-generator.demo",
       images: [
-        "./aasra/a1.png",
         "./aasra/a2.png",
         "./aasra/a3.png",
+        "./aasra/a1.png",
         "./aasra/a4.png",
         "./aasra/a5.png",
         "./aasra/a6.png",
@@ -315,9 +315,8 @@ export default function Home() {
         <div className="flex gap-4 md:gap-8 mb-8 md:mb-12 text-white justify-center">
           {[
             { icon: <FaLinkedin size="30" />, href: "https://www.linkedin.com/in/suhaani-agarwal-010a0a280/", color: "#0077b5" },
-            { icon: <FaPlayCircle size="30" />, href: "/demo", color: "#ff0000" },
             { icon: <FaGithub size="30" />, href: "https://github.com/suhaani-agarwal", color: "#ffffff" },
-            { icon: <FaDownload size="30" />, href: "/ResumeSuhaaniAgarwalSEM1.pdf", color: "#4CAF50" }
+            { icon: <FaDownload size="30" />, href: "./SuhaaniAgarwalResume.pdf", color: "#4CAF50" }
           ].map((social, index) => (
             <motion.a
               key={index}
