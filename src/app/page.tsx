@@ -423,7 +423,7 @@ export default function Home() {
               >
                 Contact Me
               </motion.button>
-              <Link href='/ResumeSuhaaniAgarwalSEM1.pdf'><motion.button
+              <Link href='"./suhaaniResume.pdf"'><motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-3 border border-indigo-600 rounded-full hover:bg-indigo-600/20 transition-colors"
